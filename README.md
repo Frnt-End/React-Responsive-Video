@@ -2,6 +2,8 @@
 
 
 Simple and fast way to make a background video in React
+:point_right: [Watch DEMO](https://frnt-end.github.io/React-Responsive-Video/) 
+
 
 ## Start
 
