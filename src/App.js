@@ -1,6 +1,5 @@
 import React,  { useState, useEffect, useReducer } from 'react';
 import './App.css';
-import { Routes, Route, Outlet } from "react-router-dom";
 import { CssCode, ReactCode, Author } from './tabs';
 import BgVideo from './video/vid-bg.mp4';
 
@@ -13,11 +12,10 @@ function App() {
 }
 
   return (
-
-<>
-<video autoPlay loop muted className="bg-vid">
-  <source src={BgVideo} type="video/mp4" />
-</video>
+  <>
+  <video autoPlay loop muted className="bg-vid">
+    <source src={BgVideo} type="video/mp4" />
+  </video>
     <div className="container">
     <div className="main-content-top">
       <h1>Full Screen Responsive Video in React.js</h1>
@@ -25,9 +23,7 @@ function App() {
       <p className="date">May 22, 2021</p>
       <article>
       <p className="p-content"><strong>Liquid and Elastic! </strong>Resize the browser window to simulate the responsive behavior.</p>
-            <Outlet />
           </article>
-
     </div>
 
     <div className="main-content-bottom">
