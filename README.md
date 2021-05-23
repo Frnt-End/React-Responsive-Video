@@ -5,7 +5,7 @@ Simple and fast way to make a background video in React
 
 ## Start
 
-Add your video file and import it, in this case, we added a file named 'vid-bg.mp4' inside a folder called 'vid':
+Add your video file and import it, in this case, we added a file named 'vid-bg.mp4' inside a directory called 'video':
 
 ##### `import BgVideo from './video/vid-bg.mp4';`
 
