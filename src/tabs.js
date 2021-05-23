@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, useLocation, Outlet } from 'react-router-dom';
 import AuthorImg  from './author.png';
 
 
@@ -66,13 +65,4 @@ export function Author() {
       <button onClick={Portfolio}>Portfolio</button>
     </div>
   )
-}
-
-export function W404() {
-  const location = useLocation();
-  return (
-  <div>
-    <h1>No page found at {location.pathname}</h1>
-  </div>
-)
 }

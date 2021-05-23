@@ -20,9 +20,6 @@ function App() {
 </video>
     <div className="container">
     <div className="main-content-top">
-
-
-    <div>
       <h1>Full Screen Responsive Video in React.js</h1>
       <h2>Using Simple Html Video Tag.</h2>
       <p className="date">May 22, 2021</p>
@@ -30,7 +27,6 @@ function App() {
       <p className="p-content"><strong>Liquid and Elastic! </strong>Resize the browser window to simulate the responsive behavior.</p>
             <Outlet />
           </article>
-    </div>
 
     </div>
 
