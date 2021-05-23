@@ -76,7 +76,7 @@
       cursor: pointer;
       margin-top: 9px;
       text-transform: uppercase;
-      font-size: .7em;
+      font-size: .9em;
       letter-spacing: 1px;
     }
 
@@ -95,7 +95,7 @@
     }
 
     .author-container div > p {
-      font-size: .9em;
+      font-size: 1.1em;
       font-weight: 400;
       color: #000;
       margin-top: 3px;
@@ -103,7 +103,7 @@
     }
 
     .author-container a {
-      font-size: .8em;
+      font-size: 1em;
       font-weight: 600;
       color: #000;
       text-decoration: none;
@@ -122,7 +122,7 @@
     .date {
     color: #929292;
     margin: 0;
-    font-size: .7em;
+    font-size: .8em;
     font-weight: 400;
     margin-top: 5px;
     }
