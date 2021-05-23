@@ -23,8 +23,7 @@ function App() {
 
 
     <Routes>
-        <Route path="/react-responsive-video" element={<Home />} />
-        <Route path="*" element={<W404 />} />
+        <Route path="/" element={<Home />} />
     </Routes>
 
     </div>
