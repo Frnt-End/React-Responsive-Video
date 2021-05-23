@@ -58,7 +58,7 @@ export function Author() {
     <div className="author-container">
       <div>
       <img src={AuthorImg} alt="Autor" />
-      <p>Creative <br />& Code:)
+      <p>Creative & Code:)
       <br /><a href="https://nirit.website" target="_blank">nirit.website</a>
       </p>
       </div>
