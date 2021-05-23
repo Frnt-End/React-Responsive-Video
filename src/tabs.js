@@ -9,21 +9,6 @@ const Portfolio = () => {
               "https://nirit.website", "_blank");
 }
 
-export function Home() {
-  return (
-    <div>
-      <h1>Full Screen Responsive Video in React.js</h1>
-      <h2>Using Simple Html Video Tag.</h2>
-      <p className="date">May 22, 2021</p>
-      <article>
-      <p className="p-content"><strong>Liquid and Elastic! </strong>Resize the browser window to simulate the responsive behavior.</p>
-            <Outlet />
-          </article>
-    </div>
-  )
-}
-
-
 
 export function CssCode() {
   return (

@@ -1,7 +1,7 @@
 import React,  { useState, useEffect, useReducer } from 'react';
 import './App.css';
-import { Routes, Route } from "react-router-dom";
-import { Home, CssCode, ReactCode, Author, W404 } from './tabs';
+import { Routes, Route, Outlet } from "react-router-dom";
+import { CssCode, ReactCode, Author } from './tabs';
 import BgVideo from './video/vid-bg.mp4';
 
 
@@ -22,9 +22,15 @@ function App() {
     <div className="main-content-top">
 
 
-    <Routes>
-        <Route path="/" element={<Home />} />
-    </Routes>
+    <div>
+      <h1>Full Screen Responsive Video in React.js</h1>
+      <h2>Using Simple Html Video Tag.</h2>
+      <p className="date">May 22, 2021</p>
+      <article>
+      <p className="p-content"><strong>Liquid and Elastic! </strong>Resize the browser window to simulate the responsive behavior.</p>
+            <Outlet />
+          </article>
+    </div>
 
     </div>
 
