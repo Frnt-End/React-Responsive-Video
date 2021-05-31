@@ -249,9 +249,12 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .main-content-bottom, .main-content-top, .author {
-    width: 80%;
+    width: 85%;
+  }
+  .author-container {
+    display: block;
   }
 }
 
