@@ -53,6 +53,15 @@ function App() {
           </div>
           </div>
 
+          <div className="author-note">
+          <p>
+              <strong>...and that's it folks! </strong>
+                    <br />
+                  <strong>Keep on learning and spread the joy..!</strong>
+                  <br />
+                  ▪️<a href="https://github.com/Frnt-End/Spread-the-JOY">  Back to the Repo</a>
+          </p>
+                </div>
 
       </div>
       <div className="author">

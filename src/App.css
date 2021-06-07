@@ -48,6 +48,10 @@
     margin: 0;
     }
 
+    .author-note {
+      margin-top: 40px;
+    }
+
     .author {
       background: rgba(255, 255, 255, 0.95);
       padding: 20px;
