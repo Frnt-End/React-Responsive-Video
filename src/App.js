@@ -59,7 +59,7 @@ function App() {
                     <br />
                   <strong>Keep on learning and spread the joy..!</strong>
                   <br />
-                  ▪️<a href="https://github.com/Frnt-End/Spread-the-JOY">  Back to the Repo</a>
+                  ▪️<a href="https://github.com/Frnt-End/React-Responsive-Video">  Back to the Repo</a>
           </p>
                 </div>
 
